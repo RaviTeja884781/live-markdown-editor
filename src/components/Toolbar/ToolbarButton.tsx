@@ -3,7 +3,6 @@ import type { ToolbarButtonProps } from '../../types';
 
 export const ToolbarButton: React.FC<ToolbarButtonProps> = ({ 
   icon: Icon, 
-  text, 
   label, 
   onClick 
 }) => (
