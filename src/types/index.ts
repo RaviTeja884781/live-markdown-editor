@@ -8,7 +8,7 @@ export interface ToolbarItem {
 export interface EditorProps {
   value: string;
   onChange: (value: string) => void;
-  onScroll: () => void;
+  onScroll?: () => void;
 }
 
 export interface PreviewProps {
